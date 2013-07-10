@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68A3E124178D34C000C2EB94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A3E123178D34C000C2EB94 /* UIKit.framework */; };
+		68A3E126178D34C000C2EB94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A3E125178D34C000C2EB94 /* Foundation.framework */; };
+		68A3E128178D34C000C2EB94 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A3E127178D34C000C2EB94 /* CoreGraphics.framework */; };
+		68A3E12E178D34C000C2EB94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68A3E12C178D34C000C2EB94 /* InfoPlist.strings */; };
+		68A3E130178D34C000C2EB94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A3E12F178D34C000C2EB94 /* main.m */; };
+		68A3E134178D34C000C2EB94 /* SimpleLoginAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A3E133178D34C000C2EB94 /* SimpleLoginAppDelegate.m */; };
+		68A3E136178D34C000C2EB94 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 68A3E135178D34C000C2EB94 /* Default.png */; };
+		68A3E138178D34C000C2EB94 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68A3E137178D34C000C2EB94 /* Default@2x.png */; };
+		68A3E13A178D34C000C2EB94 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68A3E139178D34C000C2EB94 /* Default-568h@2x.png */; };
+		68A3E13D178D34C000C2EB94 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68A3E13B178D34C000C2EB94 /* MainStoryboard_iPhone.storyboard */; };
+		68A3E140178D34C000C2EB94 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68A3E13E178D34C000C2EB94 /* MainStoryboard_iPad.storyboard */; };
+		68A3E143178D34C000C2EB94 /* SimpleLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A3E142178D34C000C2EB94 /* SimpleLoginViewController.m */; };
+		68A3E14B178D34C000C2EB94 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A3E14A178D34C000C2EB94 /* SenTestingKit.framework */; };
+		68A3E14C178D34C000C2EB94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A3E123178D34C000C2EB94 /* UIKit.framework */; };
+		68A3E14D178D34C000C2EB94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A3E125178D34C000C2EB94 /* Foundation.framework */; };
+		68A3E155178D34C000C2EB94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68A3E153178D34C000C2EB94 /* InfoPlist.strings */; };
+		68A3E158178D34C000C2EB94 /* SimpleLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A3E157178D34C000C2EB94 /* SimpleLoginTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68A3E14E178D34C000C2EB94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68A3E118178D34C000C2EB94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68A3E11F178D34C000C2EB94;
+			remoteInfo = SimpleLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68A3E120178D34C000C2EB94 /* SimpleLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68A3E123178D34C000C2EB94 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		68A3E125178D34C000C2EB94 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		68A3E127178D34C000C2EB94 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		68A3E12B178D34C000C2EB94 /* SimpleLogin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleLogin-Info.plist"; sourceTree = "<group>"; };
+		68A3E12D178D34C000C2EB94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		68A3E12F178D34C000C2EB94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68A3E131178D34C000C2EB94 /* SimpleLogin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleLogin-Prefix.pch"; sourceTree = "<group>"; };
+		68A3E132178D34C000C2EB94 /* SimpleLoginAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleLoginAppDelegate.h; sourceTree = "<group>"; };
+		68A3E133178D34C000C2EB94 /* SimpleLoginAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleLoginAppDelegate.m; sourceTree = "<group>"; };
+		68A3E135178D34C000C2EB94 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		68A3E137178D34C000C2EB94 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		68A3E139178D34C000C2EB94 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		68A3E13C178D34C000C2EB94 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		68A3E13F178D34C000C2EB94 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		68A3E141178D34C000C2EB94 /* SimpleLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleLoginViewController.h; sourceTree = "<group>"; };
+		68A3E142178D34C000C2EB94 /* SimpleLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleLoginViewController.m; sourceTree = "<group>"; };
+		68A3E149178D34C000C2EB94 /* SimpleLoginTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleLoginTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68A3E14A178D34C000C2EB94 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		68A3E152178D34C000C2EB94 /* SimpleLoginTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleLoginTests-Info.plist"; sourceTree = "<group>"; };
+		68A3E154178D34C000C2EB94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		68A3E156178D34C000C2EB94 /* SimpleLoginTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleLoginTests.h; sourceTree = "<group>"; };
+		68A3E157178D34C000C2EB94 /* SimpleLoginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleLoginTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68A3E11D178D34C000C2EB94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68A3E124178D34C000C2EB94 /* UIKit.framework in Frameworks */,
+				68A3E126178D34C000C2EB94 /* Foundation.framework in Frameworks */,
+				68A3E128178D34C000C2EB94 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68A3E145178D34C000C2EB94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68A3E14B178D34C000C2EB94 /* SenTestingKit.framework in Frameworks */,
+				68A3E14C178D34C000C2EB94 /* UIKit.framework in Frameworks */,
+				68A3E14D178D34C000C2EB94 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68A3E117178D34C000C2EB94 = {
+			isa = PBXGroup;
+			children = (
+				68A3E129178D34C000C2EB94 /* SimpleLogin */,
+				68A3E150178D34C000C2EB94 /* SimpleLoginTests */,
+				68A3E122178D34C000C2EB94 /* Frameworks */,
+				68A3E121178D34C000C2EB94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68A3E121178D34C000C2EB94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68A3E120178D34C000C2EB94 /* SimpleLogin.app */,
+				68A3E149178D34C000C2EB94 /* SimpleLoginTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68A3E122178D34C000C2EB94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68A3E123178D34C000C2EB94 /* UIKit.framework */,
+				68A3E125178D34C000C2EB94 /* Foundation.framework */,
+				68A3E127178D34C000C2EB94 /* CoreGraphics.framework */,
+				68A3E14A178D34C000C2EB94 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68A3E129178D34C000C2EB94 /* SimpleLogin */ = {
+			isa = PBXGroup;
+			children = (
+				68A3E132178D34C000C2EB94 /* SimpleLoginAppDelegate.h */,
+				68A3E133178D34C000C2EB94 /* SimpleLoginAppDelegate.m */,
+				68A3E13B178D34C000C2EB94 /* MainStoryboard_iPhone.storyboard */,
+				68A3E13E178D34C000C2EB94 /* MainStoryboard_iPad.storyboard */,
+				68A3E141178D34C000C2EB94 /* SimpleLoginViewController.h */,
+				68A3E142178D34C000C2EB94 /* SimpleLoginViewController.m */,
+				68A3E12A178D34C000C2EB94 /* Supporting Files */,
+			);
+			path = SimpleLogin;
+			sourceTree = "<group>";
+		};
+		68A3E12A178D34C000C2EB94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68A3E12B178D34C000C2EB94 /* SimpleLogin-Info.plist */,
+				68A3E12C178D34C000C2EB94 /* InfoPlist.strings */,
+				68A3E12F178D34C000C2EB94 /* main.m */,
+				68A3E131178D34C000C2EB94 /* SimpleLogin-Prefix.pch */,
+				68A3E135178D34C000C2EB94 /* Default.png */,
+				68A3E137178D34C000C2EB94 /* Default@2x.png */,
+				68A3E139178D34C000C2EB94 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68A3E150178D34C000C2EB94 /* SimpleLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				68A3E156178D34C000C2EB94 /* SimpleLoginTests.h */,
+				68A3E157178D34C000C2EB94 /* SimpleLoginTests.m */,
+				68A3E151178D34C000C2EB94 /* Supporting Files */,
+			);
+			path = SimpleLoginTests;
+			sourceTree = "<group>";
+		};
+		68A3E151178D34C000C2EB94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68A3E152178D34C000C2EB94 /* SimpleLoginTests-Info.plist */,
+				68A3E153178D34C000C2EB94 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68A3E11F178D34C000C2EB94 /* SimpleLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68A3E15B178D34C000C2EB94 /* Build configuration list for PBXNativeTarget "SimpleLogin" */;
+			buildPhases = (
+				68A3E11C178D34C000C2EB94 /* Sources */,
+				68A3E11D178D34C000C2EB94 /* Frameworks */,
+				68A3E11E178D34C000C2EB94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleLogin;
+			productName = SimpleLogin;
+			productReference = 68A3E120178D34C000C2EB94 /* SimpleLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68A3E148178D34C000C2EB94 /* SimpleLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68A3E15E178D34C000C2EB94 /* Build configuration list for PBXNativeTarget "SimpleLoginTests" */;
+			buildPhases = (
+				68A3E144178D34C000C2EB94 /* Sources */,
+				68A3E145178D34C000C2EB94 /* Frameworks */,
+				68A3E146178D34C000C2EB94 /* Resources */,
+				68A3E147178D34C000C2EB94 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68A3E14F178D34C000C2EB94 /* PBXTargetDependency */,
+			);
+			name = SimpleLoginTests;
+			productName = SimpleLoginTests;
+			productReference = 68A3E149178D34C000C2EB94 /* SimpleLoginTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68A3E118178D34C000C2EB94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SimpleLogin;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Su Yan Fang";
+			};
+			buildConfigurationList = 68A3E11B178D34C000C2EB94 /* Build configuration list for PBXProject "SimpleLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 68A3E117178D34C000C2EB94;
+			productRefGroup = 68A3E121178D34C000C2EB94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68A3E11F178D34C000C2EB94 /* SimpleLogin */,
+				68A3E148178D34C000C2EB94 /* SimpleLoginTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68A3E11E178D34C000C2EB94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68A3E12E178D34C000C2EB94 /* InfoPlist.strings in Resources */,
+				68A3E136178D34C000C2EB94 /* Default.png in Resources */,
+				68A3E138178D34C000C2EB94 /* Default@2x.png in Resources */,
+				68A3E13A178D34C000C2EB94 /* Default-568h@2x.png in Resources */,
+				68A3E13D178D34C000C2EB94 /* MainStoryboard_iPhone.storyboard in Resources */,
+				68A3E140178D34C000C2EB94 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68A3E146178D34C000C2EB94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68A3E155178D34C000C2EB94 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		68A3E147178D34C000C2EB94 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68A3E11C178D34C000C2EB94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68A3E130178D34C000C2EB94 /* main.m in Sources */,
+				68A3E134178D34C000C2EB94 /* SimpleLoginAppDelegate.m in Sources */,
+				68A3E143178D34C000C2EB94 /* SimpleLoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68A3E144178D34C000C2EB94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68A3E158178D34C000C2EB94 /* SimpleLoginTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68A3E14F178D34C000C2EB94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68A3E11F178D34C000C2EB94 /* SimpleLogin */;
+			targetProxy = 68A3E14E178D34C000C2EB94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68A3E12C178D34C000C2EB94 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68A3E12D178D34C000C2EB94 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		68A3E13B178D34C000C2EB94 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68A3E13C178D34C000C2EB94 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		68A3E13E178D34C000C2EB94 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68A3E13F178D34C000C2EB94 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		68A3E153178D34C000C2EB94 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68A3E154178D34C000C2EB94 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68A3E159178D34C000C2EB94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68A3E15A178D34C000C2EB94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68A3E15C178D34C000C2EB94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleLogin/SimpleLogin-Prefix.pch";
+				INFOPLIST_FILE = "SimpleLogin/SimpleLogin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		68A3E15D178D34C000C2EB94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleLogin/SimpleLogin-Prefix.pch";
+				INFOPLIST_FILE = "SimpleLogin/SimpleLogin-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		68A3E15F178D34C000C2EB94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleLogin.app/SimpleLogin";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleLogin/SimpleLogin-Prefix.pch";
+				INFOPLIST_FILE = "SimpleLoginTests/SimpleLoginTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		68A3E160178D34C000C2EB94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleLogin.app/SimpleLogin";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleLogin/SimpleLogin-Prefix.pch";
+				INFOPLIST_FILE = "SimpleLoginTests/SimpleLoginTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68A3E11B178D34C000C2EB94 /* Build configuration list for PBXProject "SimpleLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68A3E159178D34C000C2EB94 /* Debug */,
+				68A3E15A178D34C000C2EB94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68A3E15B178D34C000C2EB94 /* Build configuration list for PBXNativeTarget "SimpleLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68A3E15C178D34C000C2EB94 /* Debug */,
+				68A3E15D178D34C000C2EB94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68A3E15E178D34C000C2EB94 /* Build configuration list for PBXNativeTarget "SimpleLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68A3E15F178D34C000C2EB94 /* Debug */,
+				68A3E160178D34C000C2EB94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68A3E118178D34C000C2EB94 /* Project object */;
+}
