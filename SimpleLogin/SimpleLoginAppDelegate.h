@@ -10,6 +10,7 @@
 
 @interface SimpleLoginAppDelegate : UIResponder <UIApplicationDelegate>
 
+@property (strong, nonatomic) UINavigationController* navController;
 @property (strong, nonatomic) UIWindow *window;
-
+- (void)openSession;
 @end

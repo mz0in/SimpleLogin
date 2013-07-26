@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		681BF056179E57390053E457 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 681BF055179E57380053E457 /* FacebookSDK.framework */; };
+		681BF058179E57720053E457 /* FacebookSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 681BF057179E57720053E457 /* FacebookSDKResources.bundle */; };
+		681BF05A179E579A0053E457 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 681BF059179E579A0053E457 /* Accounts.framework */; };
+		681BF05C179E57A10053E457 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 681BF05B179E57A10053E457 /* AdSupport.framework */; };
+		681BF05E179E57B80053E457 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 681BF05D179E57B80053E457 /* libsqlite3.dylib */; };
+		681BF060179E57CC0053E457 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 681BF05F179E57CC0053E457 /* Security.framework */; };
+		681BF062179E57D20053E457 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 681BF061179E57D20053E457 /* Social.framework */; };
 		68A3E124178D34C000C2EB94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A3E123178D34C000C2EB94 /* UIKit.framework */; };
 		68A3E126178D34C000C2EB94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A3E125178D34C000C2EB94 /* Foundation.framework */; };
 		68A3E128178D34C000C2EB94 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A3E127178D34C000C2EB94 /* CoreGraphics.framework */; };
@@ -24,6 +31,10 @@
 		68A3E14D178D34C000C2EB94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A3E125178D34C000C2EB94 /* Foundation.framework */; };
 		68A3E155178D34C000C2EB94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68A3E153178D34C000C2EB94 /* InfoPlist.strings */; };
 		68A3E158178D34C000C2EB94 /* SimpleLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A3E157178D34C000C2EB94 /* SimpleLoginTests.m */; };
+		68A3E162178D3CCD00C2EB94 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A3E161178D3CCD00C2EB94 /* CFNetwork.framework */; };
+		68A3E164178D3CDD00C2EB94 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A3E163178D3CDD00C2EB94 /* SystemConfiguration.framework */; };
+		68A3E166178D3CE500C2EB94 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A3E165178D3CE500C2EB94 /* MobileCoreServices.framework */; };
+		68A3E168178D3D0000C2EB94 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A3E167178D3D0000C2EB94 /* libz.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +48,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		681BF055179E57380053E457 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = SimpleLogin/FacebookSDK.framework; sourceTree = "<group>"; };
+		681BF057179E57720053E457 /* FacebookSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FacebookSDKResources.bundle; sourceTree = "<group>"; };
+		681BF059179E579A0053E457 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		681BF05B179E57A10053E457 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		681BF05D179E57B80053E457 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		681BF05F179E57CC0053E457 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		681BF061179E57D20053E457 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		68A3E120178D34C000C2EB94 /* SimpleLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68A3E123178D34C000C2EB94 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		68A3E125178D34C000C2EB94 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,6 +78,10 @@
 		68A3E154178D34C000C2EB94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		68A3E156178D34C000C2EB94 /* SimpleLoginTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleLoginTests.h; sourceTree = "<group>"; };
 		68A3E157178D34C000C2EB94 /* SimpleLoginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleLoginTests.m; sourceTree = "<group>"; };
+		68A3E161178D3CCD00C2EB94 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		68A3E163178D3CDD00C2EB94 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		68A3E165178D3CE500C2EB94 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		68A3E167178D3D0000C2EB94 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,9 +89,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				681BF062179E57D20053E457 /* Social.framework in Frameworks */,
+				681BF060179E57CC0053E457 /* Security.framework in Frameworks */,
+				681BF05E179E57B80053E457 /* libsqlite3.dylib in Frameworks */,
+				681BF05C179E57A10053E457 /* AdSupport.framework in Frameworks */,
+				681BF05A179E579A0053E457 /* Accounts.framework in Frameworks */,
+				68A3E168178D3D0000C2EB94 /* libz.dylib in Frameworks */,
+				68A3E128178D34C000C2EB94 /* CoreGraphics.framework in Frameworks */,
+				68A3E166178D3CE500C2EB94 /* MobileCoreServices.framework in Frameworks */,
+				68A3E164178D3CDD00C2EB94 /* SystemConfiguration.framework in Frameworks */,
+				68A3E162178D3CCD00C2EB94 /* CFNetwork.framework in Frameworks */,
 				68A3E124178D34C000C2EB94 /* UIKit.framework in Frameworks */,
 				68A3E126178D34C000C2EB94 /* Foundation.framework in Frameworks */,
-				68A3E128178D34C000C2EB94 /* CoreGraphics.framework in Frameworks */,
+				681BF056179E57390053E457 /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,6 +140,17 @@
 		68A3E122178D34C000C2EB94 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				681BF061179E57D20053E457 /* Social.framework */,
+				681BF05F179E57CC0053E457 /* Security.framework */,
+				681BF05D179E57B80053E457 /* libsqlite3.dylib */,
+				681BF05B179E57A10053E457 /* AdSupport.framework */,
+				681BF059179E579A0053E457 /* Accounts.framework */,
+				681BF057179E57720053E457 /* FacebookSDKResources.bundle */,
+				68A3E167178D3D0000C2EB94 /* libz.dylib */,
+				681BF055179E57380053E457 /* FacebookSDK.framework */,
+				68A3E163178D3CDD00C2EB94 /* SystemConfiguration.framework */,
+				68A3E161178D3CCD00C2EB94 /* CFNetwork.framework */,
+				68A3E165178D3CE500C2EB94 /* MobileCoreServices.framework */,
 				68A3E123178D34C000C2EB94 /* UIKit.framework */,
 				68A3E125178D34C000C2EB94 /* Foundation.framework */,
 				68A3E127178D34C000C2EB94 /* CoreGraphics.framework */,
@@ -241,6 +284,7 @@
 				68A3E13A178D34C000C2EB94 /* Default-568h@2x.png in Resources */,
 				68A3E13D178D34C000C2EB94 /* MainStoryboard_iPhone.storyboard in Resources */,
 				68A3E140178D34C000C2EB94 /* MainStoryboard_iPad.storyboard in Resources */,
+				681BF058179E57720053E457 /* FacebookSDKResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +440,10 @@
 		68A3E15C178D34C000C2EB94 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/SimpleLogin\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleLogin/SimpleLogin-Prefix.pch";
 				INFOPLIST_FILE = "SimpleLogin/SimpleLogin-Info.plist";
@@ -407,6 +455,10 @@
 		68A3E15D178D34C000C2EB94 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/SimpleLogin\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleLogin/SimpleLogin-Prefix.pch";
 				INFOPLIST_FILE = "SimpleLogin/SimpleLogin-Info.plist";
@@ -468,6 +520,7 @@
 				68A3E15D178D34C000C2EB94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		68A3E15E178D34C000C2EB94 /* Build configuration list for PBXNativeTarget "SimpleLoginTests" */ = {
 			isa = XCConfigurationList;
@@ -476,6 +529,7 @@
 				68A3E160178D34C000C2EB94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

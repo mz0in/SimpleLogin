@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SimpleLoginViewController : UIViewController
-
+@interface SimpleLoginViewController : UIViewController <UITextFieldDelegate>
+@property (weak, nonatomic) IBOutlet UITextField *userName;
+@property (weak, nonatomic) IBOutlet UIButton *submitButton;
+@property (weak, nonatomic) IBOutlet UITextView *userInfo;
+@property NSMutableData *responseData;
+- (IBAction)login:(id)sender;
+- (IBAction)performLogin:(id)sender;
+- (void)loginFailed;
 @end
